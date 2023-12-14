@@ -1,0 +1,28 @@
+.slick-slider{
+    width: 100%;
+    height: auto;
+}
+.slick-list{
+    width: 100%;
+}
+.slick-list, .slick-slider, .slick-track{
+    display: flex;
+}
+.slick-next:before, .slick-prev:before{
+    color: rgb(2, 1, 1);
+}
+
+.slick-slider{
+  
+   position: relative;
+}
+.slick-prev, .slick-next{
+    position: absolute;
+    z-index: 1;
+}
+.slick-next{
+    right: 2%;
+}
+.slick-prev{
+    left: 2%;
+}
