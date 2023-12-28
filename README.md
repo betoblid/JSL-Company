@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# JSL - Company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+É um E-commerce completo, onde poderá ver os produtos, colocá-los no carrinho e com aba de favoritos, só não poderá comprar o produto, pois não tem conexão com api de pagamentos e a api de produtos vem de uma api do mercado livre.
 
-## Available Scripts
+![ilustração da pagina inicial](https://a.imagem.app/oIOK8J.jpeg)
+## Documentação
 
-In the project directory, you can run:
+Um E-commerce feito com o objetivo de treinar a criação de um E-commerce do zero com futura implementação é criar uma propria api de produtos e conectar com uma api de pagamentos para simular pagamentos e fazer um Endpoint de login.
 
-### `npm start`
+O site é bem simples de usar e contando com um vídeo no You Tube explicando como se usa o nosso site e um vídeo no linkedin com musica interativa.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pagina inicial
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Na página inicial contamos com toda a interface de qualquer E-commerce, é simples de usar, temos uma seção com o Cabeçalho do site onde se encontra todas as informações de navegação e esse componente header se encontra em todas as paginas, temos um *Banner* que possui um componente *carrossel*, que recebe as props necessária para que possa ser acessível, o carrossel para ser reutilizado mais de 1 vez, Temos uma aba onde se encontra todas as categorias do site disponível, e cada categoria conta com 50 produtos, após categoria temos um componente ListaCard onde consegue-se agrupar todos os cards produtos na ordem que queremos e dentro do componente ListCard receber uma props Children para que possamos percorrer os produtos e renderizar na tela pelo componente CardProduct, e após os cards produtos vem o Roda pé onde tem links úteis para a navegação nas redes sociais da loja, portfólio de quem a criou e o carrinho da loja e favoritos;
 
-### `npm test`
+![ilustração da pagina inicial](https://a.imagem.app/oIOK8J.jpeg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### página Categoria
 
-### `npm run build`
+A página categoria conta com os Componentes Header que já comentamos e o footer,
+de baixo do header se encontra os componentes container, dentro dele temos uma props chamada children onde recebe o componente listcard para dentro dele podemos percorrer a lista de produtos e renderizar no cardProduct.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![pagina categoria](https://a.imagem.app/oIO5sr.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Página favoritos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A pagina Favoritos conta com os componentes Header que já comentamos e o footer,
+basicamente é semelhante a estrutura da página Categoria a única coisa que muda são as informações que está vendo de um hook que criamos para ter functions para manipular nosso hook ListCardFavorit onde fica os produtos que foi apertado o coraçãozinho que se encontra ao lado esquerdo da sua tela. Após clicado, no lado de cima terá sua cor alterada. 
 
-### `npm run eject`
+![Pagina favoritos](https://a.imagem.app/oIOw7l.jpeg)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Pagina de comprar
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Essa aba tem os mesmos componentes, a página Favoritos conta com os Componentes Header que já comentamos e o footer, Aqui apresenta o valor do produto e os produtos escolhidos tanto podemos removê-los como podemos adicionar mais produtos no carrinho, temos valor do produto e o total com o frete também já adicionado.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Pagina de comprar](https://a.imagem.app/oIOdtE.jpeg)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Página de login
 
-## Learn More
+A página de login se encontra no processo de criação, mas pode ser vista no site.
+## Tecnologia
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React js
+- typescript
+- React-query
+- React-Slick
+- react-icons
+- react-router-dom
+- axios
+- html
+- css
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença 
+- License MIT

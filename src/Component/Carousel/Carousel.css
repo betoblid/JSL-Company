@@ -12,17 +12,15 @@
     color: rgb(2, 1, 1);
 }
 
-.slick-slider{
-  
-   position: relative;
-}
-.slick-prev, .slick-next{
-    position: absolute;
-    z-index: 1;
-}
-.slick-next{
-    right: 2%;
-}
-.slick-prev{
-    left: 2%;
+.slick-slider{  position: relative;}
+
+.slick-prev, .slick-next{  position: absolute;  z-index: 1;}
+
+.slick-next{  right: 2%;}
+
+.slick-prev{   left: 2%;}
+
+.slick-list, .slick-slider, .slick-track {
+    position: relative;
+    display: flex;
 }

@@ -1,3 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
-User-agent: *
+
+User-agent: Google
 Disallow:
+
+User-agent: Edge
+Disallow:
+
+User-agent: *
+Disallow: /

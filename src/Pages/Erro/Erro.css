@@ -1,0 +1,13 @@
+.container-pag-not-exist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.container-pag-not-exist h2{ font: 600 30px 'Poppins'; color: red;}
+.container-pag-not-exist p{ font: 300 19px 'Poppins';}
+
+.container-pag-not-exist a{ font-weight: 600; text-decoration: none; color: rgb(255, 255, 255); background-color: rgb(37, 207, 37); padding: 10px 20px;}

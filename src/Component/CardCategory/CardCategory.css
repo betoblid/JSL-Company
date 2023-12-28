@@ -1,0 +1,27 @@
+.Card-category{
+    width: 200px;
+    height: 120px;
+    background: white;
+     text-decoration: none;
+    border-radius: 9px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.Card-category h3   { font: 600 18px 'Poppins';    color: black;  } 
+
+@media(max-width: 368px){
+
+    .Card-category{    width: 140px;    height: 70px;}
+
+    .Card-category h3{   font-size: 14px;   } 
+}
+@media(min-width: 369px) and (max-width: 768px){
+
+    .Card-category{    width: 150px;    height: 80px;}
+
+    .Card-category h3{   font-size: 16px;   } 
+}

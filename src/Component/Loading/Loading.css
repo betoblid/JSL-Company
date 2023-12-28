@@ -1,0 +1,15 @@
+.container-loading{
+    border-top: 5px solid rgb(0, 132, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: 1s Loading linear infinite;
+}
+@keyframes Loading {
+    to{
+        transform: rotate(0);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+}

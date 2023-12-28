@@ -1,0 +1,98 @@
+.card-product {
+    width: 230px;
+    height: 400px;
+    position: relative;
+    background: white;
+    box-shadow: 0 0 10px 1px rgb(126, 126, 126);
+    border-radius: 8px;
+    position: relative;
+}
+.card-product:hover {    transform: scale(1.02);}
+
+.card-product a {    text-decoration: none;    color: black; }
+
+.card-product img {    width: 100%;    height: 230px;    border-top-right-radius: 8px;    border-top-left-radius: 8px;}
+
+.card-product p {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-block: 10px;
+    font-size: 14px;
+    padding-inline: 10px;
+}
+.price-original {    font-size: 16px;    padding-block: 5px;    text-decoration: line-through;}
+
+.box-price{    position: relative;}
+
+.btn-cart-product{
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+.box-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-inline: 10px;
+}
+.card-product .price {    font-size: 24px;    font-weight: 600;}
+
+.box-price p {    padding-bottom: 10px;}
+
+.box-price p span {    color: green;}
+
+.product-btn-favorit{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    width: 20px;
+    height: 20px; 
+}
+@media(max-width: 368px) {
+    .card-product {    width: 120px;    height: 260px;}
+
+    .card-product img {    height: auto;}
+
+    .card-product p {    font-size: 13px;    padding-inline: 1px;}
+
+    .price-original {    font-size: 12px;}
+
+    .box-price {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-inline: 5px;
+    }
+    .card-product .price {    font-size: 18px;}
+}
+@media(min-width: 369px) and (max-width: 768px) {
+    .card-product {    width: 150px;    height: 295px;}
+
+    .card-product img {    height: 145px;}
+
+    .card-product p {    font-size: 14px;    padding-inline: 1px;}
+
+    .price-original {    font-size: 13px;}
+
+    .box-price {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-inline: 5px;
+    }
+
+    .card-product .price {    font-size: 20px;}
+}

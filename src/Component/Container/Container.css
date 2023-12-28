@@ -1,4 +1,1 @@
-.lightdark{
-    background: #c9c9c9;
-    overflow: hidden;
-}
+.lightdark{ background: #c9c9c9;   overflow: hidden;   min-height: 100vh;}

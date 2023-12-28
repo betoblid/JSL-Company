@@ -15,87 +15,46 @@
     border: none;
     border-radius: 7px;
 }
-.card-alert-info h3{
-    font: 600 26px 'Poppins';
-}
-.card-alert-info p{
-    font: 300 15px 'Poppins';
-}
-.box-alert-input{
-    display: flex;
-    gap: 20px;
-}
-.box-alert-input input{
-    padding: 2px 5px;
-    font-size: 16px;
-    font-family: 'Poppins';
-}
+.card-alert-info h3{ font: 600 26px 'Poppins';  }
+
+.card-alert-info p{ font: 300 15px 'Poppins';  }
+
+.box-alert-input{ display: flex; gap: 20px;}
+
+.box-alert-input input{    padding: 2px 5px;    font-size: 16px;    font-family: 'Poppins';}
+
 @media(max-width: 664px){
-    .card-alert-info h3{
-       font-size: 19px;
-      
-    }
-    .card-alert-info p{
-        font-size: 14px;
-    }
-    .container-alert-oferta, .box-alert-input{
-        flex-direction: column;
-        padding: 0;
-    }
-    .container-alert-oferta{
-        padding-block: 10px;
-    }
-    .box-alert-input{
-        margin-block: 16px;
-    }
-       
-    
+    .card-alert-info h3{   font-size: 19px; }
+
+    .card-alert-info p{  font-size: 14px; }
+
+    .container-alert-oferta, .box-alert-input{ flex-direction: column; padding: 0; }
+
+    .container-alert-oferta{ padding-block: 10px; }
+
+    .box-alert-input{  margin-block: 16px;} 
 }
-
 @media(min-width: 665px) and (max-width: 900px){
-    .container-alert-oferta{
-        padding-inline: 4px;
-    }
-    .card-alert-info h3{
-        font-size: 20px;
-    }
-    .card-alert-info p{
-        font-size: 13px;
-    }
+    .container-alert-oferta{ padding-inline: 4px; }
 
-    .box-alert-input{
-        flex-direction: column;
-        gap: 7px;
-    }
+    .card-alert-info h3{   font-size: 20px; }
+
+    .card-alert-info p{    font-size: 13px;}
+
+    .box-alert-input{   flex-direction: column;     gap: 7px; }
 }
 @media(min-width: 901px) and (max-width: 1245px){
-    .container-alert-oferta{
-        padding-right: 0;
-    }
-    .card-alert-info h3{
-        font-size: 19px;
-    }
-    .card-alert-info p{
-        font-size: 14px;
-    }
-    .box-alert-input{
-        gap: 5px;
-    }
-    .container-alert-oferta button{
-        padding: 6px 9px;
-        font: 500 16px 'Poppins';
-       
-    }
-    
+    .container-alert-oferta{   padding-right: 0;  }
+
+    .card-alert-info h3{     font-size: 19px; }
+
+    .card-alert-info p{ font-size: 14px; }
+
+    .box-alert-input{  gap: 5px;  }
+
+    .container-alert-oferta button{   padding: 6px 9px; font: 500 16px 'Poppins'; } 
 } 
 @media(min-width: 1900px){
-    .container-alert-oferta{
-
-    }
-    .card-alert-info h3{
-        font-size: 30px;
-    }
-    .box-alert-input input{
-        width: 400px;
-    }
+    .card-alert-info h3{  font-size: 30px;}
+    .box-alert-input input{ width: 400px; }
 }

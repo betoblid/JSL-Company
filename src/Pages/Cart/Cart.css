@@ -1,0 +1,68 @@
+
+.comprar-final p{    font: 400 14px 'Poppins';    margin-block: 5px;}
+
+.comprar-final h4{    font: 700 18px 'Poppins';}
+
+.comprar-final button{
+    width: 95%;
+    margin-top: 10px;
+    padding-block: 6px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font: 600 16px 'Poppins';
+    cursor: pointer;
+}
+.comprar-final{    background: white;    padding: 20px;    border-radius: 10px;}
+
+.card-itens-compra-final{    height: 70vh;    overflow: auto;    background: rgb(208, 208, 208);  margin-top: 20px;}
+
+@media(max-width: 1009px){
+    .comprar-final{    width: 90%;    margin: 0 auto 20PX auto;}
+}
+@media(min-width: 1010px) and (max-width: 1440px){
+    .container-cart-list-product-finalizar{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .comprar-final{    width: 400px;}
+
+    .card-itens-compra-final{    width: 800px;}
+}
+@media(min-width: 1441px) and (max-width: 1900px){
+    .container-cart-list-product-finalizar{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .comprar-final{    width: 500px;}
+    
+    .card-itens-compra-final{    width: 910px;}
+}
+@media(min-width: 1901px){
+    .container-cart-list-product-finalizar{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .comprar-final{    width: 700px; }
+
+    .card-itens-compra-final{    width: 1200px;}
+
+    .comprar-final p{   font-size: 20px;   margin-block: 15px;}
+
+    .comprar-final h4{    font-size: 22px;}
+
+    .comprar-final button{    font-size: 20px;    padding-block: 10px;}
+}

@@ -1,0 +1,121 @@
+.Cart-compra{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: 2;
+    min-height: 100vh;
+    width: 60%;
+    background: rgb(1, 50, 141);
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container-products-comprado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    overflow-y: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 79vh;
+}
+.card-btn-finalizar{  display: flex;  align-items: center;  flex-direction: column;  }
+
+.box-price-cart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cart-title{ display: flex;  justify-content: space-around;   align-items: center;}
+
+.cart-title h2{ font: 600 22px 'Poppins';   text-align: center; }
+
+.cart-title button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box-price-cart div h3, .box-price-cart span{ font: 600 17px 'Poppins'; }
+
+.card-btn-finalizar button{
+    margin-top: 10px;
+    width: 100%;
+    padding-block: 7px;
+    font: 600 16px 'Poppins';
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.card-btn-finalizar button:active{   background: white;   color: rgb(0, 0, 0); }
+
+.card-btn-finalizar button:hover{  background: rgb(54, 54, 54); }
+
+@media(max-width: 320px){
+    .Cart-compra{
+        width: 98%;
+    }
+    .cart-title h2{
+        font-size: 18px;
+    }
+    .box-price-cart div h3, .box-price-cart span{
+        font-size: 14px;
+    }
+    .card-btn-finalizar button{     font-size: 13px; }
+}
+@media(min-width: 321px) and (max-width: 599px){
+    .Cart-compra{  width: 80%;   }
+}
+@media(min-width: 600px) and (max-width: 1100px){
+
+    .cart-title{    justify-content: center;    gap: 40px; }
+
+    .cart-title button{    font-size: 25px; }
+
+    .cart-title h2{   font-size: 26px; }
+
+    .box-price-cart div h3, .box-price-cart span{   font-size: 19px;}
+}
+@media(min-width: 1101px) and (max-width: 1440px){
+
+    .cart-title{    justify-content: center;    gap: 80px;}
+
+    .cart-title button{    font-size: 28px;}
+
+    .cart-title h2{    font-size: 32px;}
+
+    .box-price-cart div h3, .box-price-cart span{    font-size: 24px;}
+
+    .card-btn-finalizar button{    font-size: 20px;}
+}
+@media(min-width: 1441px) and (max-width: 1900px){
+
+    .cart-title{    justify-content: center;    gap: 100px;}
+
+    .cart-title button{    font-size: 30px;}
+
+    .cart-title h2{    font-size: 39px;}
+
+    .box-price-cart div h3, .box-price-cart span{  font-size: 30px;}
+
+    .card-btn-finalizar button{    font-size: 24px;}
+}
+@media(min-width: 1901px){
+
+    .cart-title{    justify-content: center;    gap: 100px;}
+
+    .cart-title button{    font-size: 35px;}
+
+    .cart-title h2{    font-size: 49px;}
+
+    .box-price-cart div h3, .box-price-cart span{    font-size: 40px;}
+    
+    .card-btn-finalizar button{    font-size: 34px;}
+}

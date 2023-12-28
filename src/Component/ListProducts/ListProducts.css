@@ -1,0 +1,12 @@
+.products-list h2{  font: 700 32px 'Poppins';   text-align: center;    margin-top: 40px;  }
+
+.container-list-products{
+    padding-block: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-flow: row wrap;
+    max-width: 95%;
+    margin: 0 auto;
+}
