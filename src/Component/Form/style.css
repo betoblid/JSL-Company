@@ -1,0 +1,56 @@
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 500px;
+    
+}
+.label-form{  color: white;   font: 400 18px 'Poppins';}
+
+.input-form{
+    margin-top: 10px;
+    width: 500px;
+    outline-color: rgb(60, 255, 0);
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    border-radius: 7px;
+    border: none;
+    background: rgb(196, 196, 196);
+}
+.btn-form-sub{
+    width: 50%;
+    padding: 5px;
+    font: 600 18px 'Poppins';
+    color: white;
+    border: none;
+    background: rgb(10, 202, 23);
+    border-radius: 7px;
+    box-shadow: 3px 6px 1px rgb(19, 161, 19);
+}
+.btn-form-sub:active{  box-shadow: 0 0;}
+
+.btn-form-sub:hover{  background: rgb(1, 153, 11);}
+
+.alert-form{  color: white; display: block;}
+
+.box-form-link{align-self: flex-end;}
+
+.box-form-link a{  color: white;}
+
+@media(max-width: 550px){
+    .container-form{   gap: 10px;      width: 100%;      }
+
+    .label-form{   font-size: 15px;  }
+    
+    .input-form{   margin-top: 5px; width: 99%;  font-size: 15px; }
+
+    .btn-form-sub{  width: 45%;  font-size: 15px;   }
+
+    .box-form-link{  align-self: center;  }
+
+    .box-form-link{ font-size: 10px;}
+
+    .alert-form{  font-size: 12px;}
+}
